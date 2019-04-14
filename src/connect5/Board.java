@@ -10,7 +10,7 @@ public class Board {
 	// initialize class variables
 	private int disks = 0; // total number of disks per game counter
 	private boolean winner = false;
-	char[][] nb; // two dimensional array to hold 'Y' & 'R' moves on board 
+	private char[][] nb; // two dimensional array to hold 'Y' & 'R' moves on board 
 	private int rowPos; // variable to hold the row position of disk entry
 	private boolean move; // boolean variable to check if move is valid
 	// connect5.Player currentPlayer; // variable holder for current player

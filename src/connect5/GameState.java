@@ -1,6 +1,7 @@
 package connect5;
 // import Scanner class
 import java.util.Scanner;
+import connect5.Board;
 
 /*
  * GameState class controls the state of Connect 5 game
