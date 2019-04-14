@@ -10,7 +10,7 @@ public class Board {
 	// initialize class variables
 	private int disks = 0; // total number of disks per game counter
 	private boolean winner = false;
-	private char[][] nb; // two dimensional array to hold 'Y' & 'R' moves on board 
+	char[][] nb; // two dimensional array to hold 'Y' & 'R' moves on board 
 	private int rowPos; // variable to hold the row position of disk entry
 	private boolean move; // boolean variable to check if move is valid
 	// connect5.Player currentPlayer; // variable holder for current player
@@ -66,7 +66,7 @@ public class Board {
    */
   public int addDisk(int column, char colour) {
   
-      if (column >= 0 && column <= 8 && disks <= 57) {
+      if (column >= 0 && column <= 8 && disks <= 53) {
           if (nb[5][column] != 'R' && nb[5][column] != 'Y') {
               nb[5][column] = colour; rowPos = 5;
           } else if (nb[4][column] != 'R' && nb[4][column] != 'Y') {
@@ -120,7 +120,7 @@ public class Board {
       return winner;
   }
 
-  /*
+  /*//
   Method to check state of board for Diagonal connect 5 in both directions - left-to-right & right-to-left
    */
   public boolean checkDiagonal(int rowPos, int col, char player){

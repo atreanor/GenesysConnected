@@ -27,7 +27,7 @@ public class BoardTest {
         board.printBoard();
 
         assertTrue(board.checkHorizontal(5, 'R'));
-        assertTrue(board.checkHorizontal(4,'Y'));
+        assertTrue(board.checkHorizontal(4, 'Y'));
 
     }
 
@@ -85,4 +85,5 @@ public class BoardTest {
         assertTrue(board4.isValidMove(7));
         assertTrue(board4.isValidMove(8));
     }
+
 }
