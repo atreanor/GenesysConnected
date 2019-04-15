@@ -1,6 +1,6 @@
 # Connect 5
 
-Is a two player game that players take turns to drop a red, or yellow disk into a board. The first player to connect 5 of their disks in a horizontal, vertical, or diagonal row is the winner.
+Is a two player game where players take turns to drop a red, or yellow disk into a board. The board has 9 columns from which to select and is 6 columns high. The first player to connect 5 of their disks in a horizontal, vertical, or diagonal row is the winner.
 
 The code of the game is held in GenesysConnected/src/connect5 folder. 
 
